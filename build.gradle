@@ -16,7 +16,7 @@
 
 apply plugin: 'java'
 
-defaultTasks = ['assemble']
+defaultTasks = ['assembleApp']
 
 sourceCompatibility = '1.7'
 targetCompatibility = '1.7'
@@ -162,6 +162,7 @@ buildscript {
 }
 
 apply plugin: 'cloudfoundry'
+
 
 cloudfoundry {
   username = "${cfUser}"
