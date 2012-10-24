@@ -1,12 +1,12 @@
-Vertex clock
+Vert.x clock
 ============
 
-This application uses Vertx + SockJS to show a web page that displays a constantly incrementing counter.
-The Timer runs within Vertx and pushes events to the browser using SocketJS.
+This application uses Vert.x + SockJS to show a web page that displays a constantly incrementing counter.
+The Timer runs within Vert.x and pushes events to the browser using SocketJS.
 
 You can build and deploy on Cloud Foundry using the following command:
 
 	gradle assembleApp cf-push -PcfUser=<YourUserId> -PcfPasswd=<YourPassword>
 
 Please note
-* Vertx requires Java 7
+* Vert.x requires Java 7
